@@ -9,7 +9,7 @@ body{
     background-color: #BBD6B8;
 }
 
-main{
+.main{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -20,23 +20,73 @@ main{
     box-shadow: 0 15px 30px #7F8487;
 }
 
-#header{
+h2{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#newtask{
     padding-bottom: 40px;
     text-align: center;
     background-color: #789395;
     padding: 20px;
+    border-radius: 10px;
 }
 
-.task{
+.itask{
     height: 40px;
     width: 300px;
     margin-top: 20px;
     padding-left: 20px;
+    border: solid 1px;
+    border-radius: 10px;
 }
-.sub-button{
+
+#push{
     height: 40px;
-    width: 320px;
+    width: 100px;
     background-color: #AEC2B6;
     margin-top: 20px;
-    border: solid 2px;
+    border: solid 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.task{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button{
+    background-color: #2B3A55;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
 }
