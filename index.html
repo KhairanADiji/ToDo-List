@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
+   <!-- Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
@@ -14,16 +15,21 @@
 
 <body>
     <main>
-        <section id="welcome">
+        <section id="header">
             <h2>Let's get things in order!</h2>
-        </section>
-        <section id="adding">
             <form>
                 <input class="task" type="text" placeholder="Add task...">
+                <br>
                 <input class="sub-button" type="submit" value="Add">
             </form>
         </section>
-        
+
+        <section id="toDos">
+            <ul></ul>
+            
+        </section>
     </main>
+
+    <script src="index.js"></script>
 </body>
-</html>
+</html> 

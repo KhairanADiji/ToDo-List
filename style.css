@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    /* border: solid red 2px; */
+}
+
+body{
+    background-color: #BBD6B8;
 }
 
 main{
@@ -9,22 +14,29 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: aquamarine;
+    background-color: #94AF9F;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 15px 30px #7F8487;
 }
 
-#welcome{
-    padding-bottom: 50px;
+#header{
+    padding-bottom: 40px;
     text-align: center;
+    background-color: #789395;
+    padding: 20px;
 }
 
 .task{
     height: 40px;
     width: 300px;
-    padding-left: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 .sub-button{
-    height: 42px;
-    width: 70px;
-    margin-left: -4px;
-    background-color: ;
+    height: 40px;
+    width: 320px;
+    background-color: #AEC2B6;
+    margin-top: 20px;
+    border: solid 2px;
 }
