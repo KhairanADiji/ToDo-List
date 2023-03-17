@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+}
+
+#welcome{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.task{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+.sub-button{
+    height: 42px;
+    width: 70px;
+    margin-left: -4px;
+    background-color: ;
+}
