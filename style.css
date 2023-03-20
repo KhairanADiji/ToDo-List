@@ -45,10 +45,11 @@ h2{
 #push{
     height: 40px;
     width: 100px;
-    background-color: #AEC2B6;
+    background-color:#2B3A55;
+    color: #ffffff;
     margin-top: 20px;
     border: solid 1px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -58,6 +59,8 @@ h2{
     padding: 30px 20px;
     margin-top: 40px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .task{
